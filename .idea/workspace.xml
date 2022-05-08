@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="recognition_car" targetName="recognition_car.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b2952a2-304a-419c-9122-8b8c5894a969" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="26eJeECbPFzTdI6F4bp07dMAsgq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.cidr.embedded.config" />
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD recognition_car">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="recognition_car.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="recognition_car" TARGET_NAME="recognition_car.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="recognition_car" RUN_TARGET_NAME="recognition_car.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD recognition_car" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="recognition_car" TARGET_NAME="recognition_car.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="recognition_car" RUN_TARGET_NAME="recognition_car.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\Application_Date\Clion\Config\STlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.recognition_car.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD recognition_car" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="1b2952a2-304a-419c-9122-8b8c5894a969" name="变更" comment="" />
+      <created>1647778211455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647778211455</updated>
+      <workItem from="1647778230955" duration="700000" />
+      <workItem from="1647778953145" duration="5934000" />
+      <workItem from="1647784948717" duration="2810000" />
+      <workItem from="1647863966804" duration="596000" />
+      <workItem from="1648043282010" duration="3596000" />
+      <workItem from="1648092792516" duration="14672000" />
+      <workItem from="1648114401800" duration="6371000" />
+      <workItem from="1648125010035" duration="926000" />
+      <workItem from="1648126494331" duration="1606000" />
+      <workItem from="1648128126549" duration="2384000" />
+      <workItem from="1648199477466" duration="9884000" />
+      <workItem from="1648277204413" duration="15753000" />
+      <workItem from="1648386147222" duration="5691000" />
+      <workItem from="1648464873179" duration="11014000" />
+      <workItem from="1648519201349" duration="19249000" />
+      <workItem from="1648711939932" duration="5148000" />
+      <workItem from="1648790983471" duration="5602000" />
+      <workItem from="1648799701024" duration="5044000" />
+      <workItem from="1648879431113" duration="4252000" />
+      <workItem from="1648888280135" duration="825000" />
+      <workItem from="1648909409938" duration="465000" />
+      <workItem from="1648967224431" duration="7939000" />
+      <workItem from="1648978660070" duration="1499000" />
+      <workItem from="1649058361570" duration="3577000" />
+      <workItem from="1649137842141" duration="2880000" />
+      <workItem from="1649226262015" duration="13928000" />
+      <workItem from="1649317507680" duration="6696000" />
+      <workItem from="1649485828262" duration="683000" />
+      <workItem from="1649487085300" duration="3170000" />
+      <workItem from="1649490957039" duration="2300000" />
+      <workItem from="1649494044072" duration="2027000" />
+      <workItem from="1649511415746" duration="5824000" />
+      <workItem from="1649561159246" duration="3607000" />
+      <workItem from="1649570875140" duration="4240000" />
+      <workItem from="1650012521938" duration="21048000" />
+      <workItem from="1650069785772" duration="31392000" />
+      <workItem from="1650162987362" duration="3329000" />
+      <workItem from="1650721430187" duration="3764000" />
+      <workItem from="1651404262949" duration="169000" />
+      <workItem from="1651404448627" duration="7000" />
+      <workItem from="1651404614627" duration="2005000" />
+      <workItem from="1651570980915" duration="626000" />
+      <workItem from="1651979939765" duration="405000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
+          <line>146</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/task.c</url>
+          <line>10</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
+          <line>392</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="Differential_speed" />
+        <watch expression="mode" />
+        <watch expression="Video_rx_buf" language="ObjectiveC" />
+        <watch expression="Openmv_carstaion" />
+        <watch expression="car_buf" />
+        <watch expression="RxBuffer" />
+        <watch expression="aRxBuffer" />
+        <watch expression="Res" />
+        <watch expression="weight" />
+        <watch expression="uart1_rx_buf" />
+        <watch expression="uart6_rx_buf" />
+        <watch expression="rev6_buff[0]" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

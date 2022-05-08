@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="recognition_car"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recognition_car.elf">
+				<Option output="E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/recognition_car.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F401xC"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Inc"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 recognition_car.elf"/>
+					<CompileFile command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recognition_car.elf/fast">
+				<Option output="E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/recognition_car.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F401xC"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Inc"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\work_software\clion_embedded\gnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 recognition_car.elf/fast"/>
+					<CompileFile command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/work_software/Clion_Embedded/MinGW/bin/mingw32-make.exe -f &quot;E:/Application_Date/Clion/STM32F4/recognition_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Inc/gpio.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Inc/main.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Inc/stm32f4xx_it.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Inc/task.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Inc/tim.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Inc/usart.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Src/gpio.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Src/main.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Src/stm32f4xx_it.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Src/syscalls.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Src/sysmem.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Src/system_stm32f4xx.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Src/task.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Src/tim.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Src/usart.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Core/Startup/startup_stm32f401ccux.s">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Device/ST/STM32F4xx/License.md">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/CMSIS/LICENSE.txt">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/License.md">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE/HX711.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE/HX711.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE/arithmetic.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE/arithmetic.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE/motor.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE/motor.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE/other.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE/other.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE/pid.c">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/HEADWARE/pid.h">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/STM32F401CCUX_FLASH.ld">
+			<Option target="recognition_car.elf"/>
+		</Unit>
+		<Unit filename="E:/Application_Date/Clion/STM32F4/recognition_car/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/recognition_car.elf.dir/Core/Src/gpio.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Core/Src/main.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Core/Src/syscalls.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Core/Src/sysmem.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Core/Src/task.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Core/Src/tim.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Core/Src/usart.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Core/Startup/startup_stm32f401ccux.s.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/HEADWARE/HX711.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/HEADWARE/arithmetic.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/HEADWARE/motor.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/HEADWARE/other.c.obj"
+  "CMakeFiles/recognition_car.elf.dir/HEADWARE/pid.c.obj"
+  "recognition_car.elf"
+  "recognition_car.elf.manifest"
+  "recognition_car.elf.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/recognition_car.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
